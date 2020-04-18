@@ -1,0 +1,113 @@
+body {
+    background-color: whitesmoke;
+    font-family: Helvetica;
+}
+
+section {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    width: 90%;
+    height: 424px;
+    color: white;
+}
+figure {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+/*=========== BIENVENIDA ==============*/
+#welcome {
+    background-color: white;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+.contenedor {
+    position: relative;
+    height: inherit;
+  }
+  .bloque {
+    position: absolute;
+    top: 1px;
+    left: 48%;
+    color: white;
+    font-size: 25px;
+  }
+
+  /*=========== SOBRE MI ==============*/
+#about{
+    background-color: #7299FE;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+.txtblq{
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+}
+
+.button {
+    display: block;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    align-content: center;
+    padding: 0;
+    margin: auto;
+    text-decoration: none;
+    width: 187px;
+    height: 62px;
+    background: #D16FFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+ /*=========== CONTACTO ==============*/
+#contact {
+    background-color: #1687A0;
+}
+ /*=========== SKILLS ==============*/
+#skills {
+    background-color: #9122FF;;
+}
+
+ /*=========== PORTAFOLIO ==============*/
+#portafolio {
+    background-color: #FFD233;
+}
+
+.imagenes {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+ /*=========== CLEINTES ==============*/
+#clientes {
+    height: 258px;
+    background-color: #3F4E62;
+}
+
+input {
+    width: 363px;
+    height: 59px;
+    margin-bottom: 10px;
+}
+#desc {
+    width: 726px;
+    height: 112px;
+}
+
+
