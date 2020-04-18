@@ -15,24 +15,24 @@
         </div>
     </fieldset>
 
-    <form>
+    <form action="#" method="GET">
         <fieldset>
             <h2>Ingrese sus datos</h2>
             <div>
                 *Nombre
-                <input type="text" placeholder="Nombres">
+                <input name="name" type="text" pattern="[a-zA-Z]+" placeholder="Nombres">
             </div>
             <div>
                 *Apellidos
-                <input type="text" placeholder="Apellidos">
+                <input name="apellido" type="text" pattern="[a-zA-Z]+" placeholder="Apellidos">
             </div>
             <div>
                 *Edad
-                <input type="number" min="18" max="80" placeholder="Edad">
+                <input name="edad" type="number" min="18" max="80" placeholder="Edad">
             </div>
             <div>
                 *Sexo
-                <select name="select">
+                <select name="sexo" name="select">
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
                     <option value="Indeciso">Prefiero no decir</option>
@@ -40,12 +40,12 @@
             </div>
             <div>
                 *DNI
-                <input type="text" placeholder="DNI" pattern="([0-9]|[a-z]|[A-Z]){8}">
+                <input name="dni" type="text" placeholder="DNI" pattern="([0-9]|[a-z]|[A-Z]){8}">
                 <p>El DNI debe ser de 9 digitos alfanumericos</p>
             </div>
             <div>
                 *Email
-                <input type="email" placeholder="Correo Electronico">
+                <input name="email" type="email" placeholder="Correo Electronico">
             </div>
             <p>*Los campos son obligatorios</p>
         </fieldset>
