@@ -20,32 +20,32 @@
             <h2>Ingrese sus datos</h2>
             <div>
                 *Nombre
-                <input name="name" type="text" pattern="[a-zA-Z]+" placeholder="Nombres">
+                <input required name="name" type="text" pattern="[a-zA-Z]+" placeholder="Nombres">
             </div>
             <div>
                 *Apellidos
-                <input name="apellido" type="text" pattern="[a-zA-Z]+" placeholder="Apellidos">
+                <input required name="apellido" type="text" pattern="[a-zA-Z]+" placeholder="Apellidos">
             </div>
             <div>
                 *Edad
-                <input name="edad" type="number" min="18" max="80" placeholder="Edad">
+                <input required name="edad" type="number" min="18" max="80" placeholder="Edad">
             </div>
             <div>
                 *Sexo
-                <select name="sexo" name="select">
+                <select required name="sexo" name="select">
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
-                    <option value="Indeciso">Prefiero no decir</option>
+                    <option value="Indeciso" selected>Prefiero no decir</option>
                 </select>
             </div>
             <div>
                 *DNI
-                <input name="dni" type="text" placeholder="DNI" pattern="([0-9]|[a-z]|[A-Z]){8}">
+                <input required name="dni" type="text" placeholder="DNI" pattern="([0-9]|[a-z]|[A-Z]){8}">
                 <p>El DNI debe ser de 9 digitos alfanumericos</p>
             </div>
             <div>
                 *Email
-                <input name="email" type="email" placeholder="Correo Electronico">
+                <input required name="email" type="email" placeholder="Correo Electronico">
             </div>
             <p>*Los campos son obligatorios</p>
         </fieldset>
