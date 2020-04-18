@@ -179,17 +179,21 @@ input {
     width: 40%;
     height: 59px;
     margin-bottom: 10px;
+  transition: ease-in-out, width .35s ease-in-out;
 }
 
 textarea {
     width: 80%;
 }
 
+input:required{
+    background-color:#f1f1f1;
+}
+
 input:invalid {
     outline-color: red;
     border-color: red;
     color: red;
-    opacity: 80%;
 }
 
 input:valid {
@@ -197,12 +201,8 @@ input:valid {
     border-color: green;
 }
 
-input[required] {
-    background-color: white;
-}
-
 input:focus {
-    background-color: yellow;
+    background-color: lightgoldenrodyellow;
     width: 40%;
 }
 
