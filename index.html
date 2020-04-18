@@ -31,8 +31,7 @@
                 eos
                 maxime nobis vero necessitatibus!</p>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">Ver CV</a>
-        </section>
-        
+        </section>      
         <section id="skills">
             <h2>Mis Skills</h2>
         </section>
@@ -62,21 +61,20 @@
         </section>
         <section id="contact">
             <h2>Contacto</h2>
-            <form method="GET">
+            <form action="#" method="GET">
                 <div>
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
+                    <input required name="nombre" type="text" pattern="([a-z]|[A-Z])" placeholder="Nombre">
+                    <input name="apellido" type="text" pattern="([a-z]|[A-Z])" placeholder="Apellido">
                 </div>
                 <div>
-                    <input type="email" placeholder="Email">
-                    <input type="number" pattern="[0-9]{9}" placeholder="Telefono">
+                    <input required name="email" type="email" placeholder="Email">
+                    <input required name="telefono" type="text" pattern="([0-9]){8}" placeholder="Telefono">
                 </div>
                 <div>
-                    <textarea placeholder="Descripcion"></textarea>
+                    <textarea name="message" placeholder="Descripcion"></textarea>
                 </div>
                 <div>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpiar</button>
+                    <button class="ContactEnviar" type="submit">Enviar</button>
                 </div>
             </form>
         </section>

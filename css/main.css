@@ -82,57 +82,6 @@ h2 {
     border-radius: 30px;
 }
 
-/*=========== CONTACTO ==============*/
-
-#clientes {
-    min-height: 300px;
-    background-color: #3F4E62;
-}
-
-#contact {
-    background-color: #1687A0;
-}
-
-select, input, textarea {
-    margin: 8px 0;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 16px 20px;
-    border: 1px;
-    border-radius: 4px;
-    background-color: #f1f1f1;
-}
-
-input {
-    width: 40%;
-    height: 59px;
-    margin-bottom: 10px;
-}
-
-textarea{
-    width: 80%;
-}
-
-input:invalid {
-    outline-color: red;
-    border-color: red;
-}
-
-input:valid {
-    outline-color: green;
-    border-color: green;
-}
-
-input[required] {
-    background-color: #F08080;
-}
-
-p {
-    margin: 0px;
-    padding: 0px;
-    font-size: smaller;
-}
-
 /*=========== SKILLS ==============*/
 
 #skills {
@@ -152,5 +101,69 @@ p {
     display: inline;
 }
 
-/*=========== CLEINTES ==============*/
+/*=========== CONTACTO ==============*/
+#clientes {
+    min-height: 300px;
+    background-color: #3F4E62;
+}
 
+#contact {
+    background-color: #1687A0;
+}
+
+select, input, textarea {
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 20px;
+    border: 10px;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+}
+
+input {
+    width: 40%;
+    height: 59px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 80%;
+}
+
+input:invalid {
+    outline-color: red;
+    border-color: red;
+    color: red;
+    opacity: 80%;
+}
+
+input:valid {
+    outline-color: green;
+    border-color: green;
+}
+input[required] {
+    background-color: white;
+}
+
+input:focus {
+    background-color: yellow;
+    width: 40%;
+  }
+
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: smaller;
+}
+
+.ContactEnviar{
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 16px 20px;
+    border: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: #233451;
+}
