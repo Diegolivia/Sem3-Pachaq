@@ -7,17 +7,20 @@ section {
     display: block;
     text-align: center;
     margin: auto;
-    padding-top: 20px;
-    width: 90%;
-    height: 424px;
+    width: 60%;
+    min-height: 424px;
+    height: auto;
     color: white;
 }
+
 figure {
     display: inline;
     margin: 0;
     padding: 0;
 }
+
 /*=========== BIENVENIDA ==============*/
+
 #welcome {
     background-color: white;
 }
@@ -26,20 +29,23 @@ figure {
     width: 100%;
     height: 100%;
 }
+
 .contenedor {
     position: relative;
     height: inherit;
-  }
-  .bloque {
+}
+
+.bloque {
     position: absolute;
     top: 1px;
     left: 48%;
     color: white;
     font-size: 25px;
-  }
+}
 
-  /*=========== SOBRE MI ==============*/
-#about{
+/*=========== SOBRE MI ==============*/
+
+#about {
     background-color: #7299FE;
 }
 
@@ -51,12 +57,12 @@ h2 {
     line-height: 41px;
 }
 
-.txtblq{
+.txtblq {
     font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .button {
@@ -74,17 +80,68 @@ line-height: 24px;
     background: #D16FFF;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-  }
- /*=========== CONTACTO ==============*/
+}
+
+/*=========== CONTACTO ==============*/
+
+#clientes {
+    min-height: 300px;
+    background-color: #3F4E62;
+}
+
 #contact {
     background-color: #1687A0;
 }
- /*=========== SKILLS ==============*/
-#skills {
-    background-color: #9122FF;;
+
+select, input, textarea {
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
 }
 
- /*=========== PORTAFOLIO ==============*/
+input {
+    width: 40%;
+    height: 59px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 80%;
+}
+
+input:invalid {
+    outline-color: red;
+    border-color: red;
+}
+
+input:valid {
+    outline-color: green;
+    border-color: green;
+}
+
+input[required] {
+    background-color: #F08080;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: smaller;
+}
+
+/*=========== SKILLS ==============*/
+
+#skills {
+    background-color: #9122FF;
+    ;
+}
+
+/*=========== PORTAFOLIO ==============*/
+
 #portafolio {
     background-color: #FFD233;
 }
@@ -94,20 +151,6 @@ line-height: 24px;
     padding: 0;
     display: inline;
 }
- /*=========== CLEINTES ==============*/
-#clientes {
-    height: 258px;
-    background-color: #3F4E62;
-}
 
-input {
-    width: 363px;
-    height: 59px;
-    margin-bottom: 10px;
-}
-#desc {
-    width: 726px;
-    height: 112px;
-}
-
+/*=========== CLEINTES ==============*/
 

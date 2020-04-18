@@ -43,6 +43,8 @@
                     <figure><img src="image/image-5.png" alt=""></figure>
                     <figure><img src="image/image-6.png" alt=""></figure>
                     <figure><img src="image/image-7.png" alt=""></figure>
+                </div>
+                <div>
                     <figure><img src="image/image-8.png" alt=""></figure>
                     <figure><img src="image/image-9.png" alt=""></figure>
                     <figure><img src="image/image-10.png" alt=""></figure>
@@ -60,16 +62,18 @@
         </section>
         <section id="contact">
             <h2>Contacto</h2>
-            <form action="GET">
+            <form method="GET">
                 <div>
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Apellido">
                 </div>
                 <div>
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Telefono">
+                    <input type="email" placeholder="Email">
+                    <input type="number" pattern="[0-9]{9}" placeholder="Telefono">
                 </div>
-                <textarea name="" id="desc" placeholder="Descripcion"></textarea>
+                <div>
+                    <textarea placeholder="Descripcion"></textarea>
+                </div>
                 <div>
                     <button type="submit">Enviar</button>
                     <button type="reset">Limpiar</button>
