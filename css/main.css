@@ -6,9 +6,12 @@ body {
 section {
     display: block;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin: auto;
     width: 60%;
-    min-height: 424px;
+    min-height: 320px;
+    padding: 1%;
     height: auto;
     color: white;
 }
@@ -17,6 +20,14 @@ figure {
     display: inline;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
 }
 
 /*=========== BIENVENIDA ==============*/
@@ -49,14 +60,6 @@ figure {
     background-color: #7299FE;
 }
 
-h2 {
-    margin-top: 0;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 41px;
-}
-
 .txtblq {
     font-family: Arial;
     font-style: normal;
@@ -65,19 +68,20 @@ h2 {
     line-height: 24px;
 }
 
-.button {
+.buttonCV {
     display: block;
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     align-content: center;
-    padding: 0;
     margin: auto;
     text-decoration: none;
     width: 187px;
     height: 62px;
     background: #D16FFF;
+    border: 5px;
+    border-color: black;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
@@ -87,6 +91,55 @@ h2 {
 #skills {
     background-color: #9122FF;
     ;
+}
+label{
+    text-align: left;
+}
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 15px;
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #57EFF9;
+    
+    border-radius: 15px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.two-col {
+    overflow: hidden;
+}
+
+.two-col .col1, .two-col .col2 {
+    width: 40%;
+    margin: 4%;
+}
+
+.two-col .col1 {
+    float: left;
+
+}
+
+.two-col .col2 {
+    float: right;
+
+}
+
+.two-col label {
+    display: block;
+
 }
 
 /*=========== PORTAFOLIO ==============*/
@@ -102,6 +155,7 @@ h2 {
 }
 
 /*=========== CONTACTO ==============*/
+
 #clientes {
     min-height: 300px;
     background-color: #3F4E62;
@@ -127,7 +181,7 @@ input {
     margin-bottom: 10px;
 }
 
-textarea{
+textarea {
     width: 80%;
 }
 
@@ -142,6 +196,7 @@ input:valid {
     outline-color: green;
     border-color: green;
 }
+
 input[required] {
     background-color: white;
 }
@@ -149,7 +204,7 @@ input[required] {
 input:focus {
     background-color: yellow;
     width: 40%;
-  }
+}
 
 p {
     margin: 0px;
@@ -157,7 +212,7 @@ p {
     font-size: smaller;
 }
 
-.ContactEnviar{
+.ContactEnviar {
     margin: 8px 0;
     box-sizing: border-box;
     width: 30%;
