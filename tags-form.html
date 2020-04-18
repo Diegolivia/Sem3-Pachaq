@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <div>
+            <h1>Formulario</h1>
+        </div>
+    </fieldset>
+
+    <form>
+        <fieldset>
+            <h2>Ingrese sus datos</h2>
+            <div>
+                *Nombre
+                <input type="text" placeholder="Nombres">
+            </div>
+            <div>
+                *Apellidos
+                <input type="text" placeholder="Apellidos">
+            </div>
+            <div>
+                *Edad
+                <input type="number" min="18" max="80" placeholder="Edad">
+            </div>
+            <div>
+                *Sexo
+                <select name="select">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Indeciso">Prefiero no decir</option>
+                </select>
+            </div>
+            <div>
+                *DNI
+                <input type="text" placeholder="DNI" pattern="([0-9]|[a-z]|[A-Z]){8}">
+                <p>El DNI debe ser de 9 digitos alfanumericos</p>
+            </div>
+            <div>
+                *Email
+                <input type="email" placeholder="Correo Electronico">
+            </div>
+            <p>*Los campos son obligatorios</p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
